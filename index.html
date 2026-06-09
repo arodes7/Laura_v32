@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laura v32.0.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">private release / birthday build</p>
+      <h1 id="page-title">Laura v32.0.0</h1>
+      <p class="subtitle">Colección privada de 32 features</p>
+      <div class="terminal" aria-label="terminal de inicio">
+        <p><span>&gt;</span> initializing birthday protocol</p>
+        <p><span>&gt;</span> loading art-map dependencies</p>
+        <p><span>&gt;</span> status: ready</p>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="controles">
+      <button id="previousFeature" type="button">← Feature anterior</button>
+      <button id="nextFeature" type="button">Siguiente feature →</button>
+      <button id="toggleAll" type="button">Ver índice</button>
+    </section>
+
+    <section class="progress" aria-live="polite">
+      <div class="progress__text" id="progressText">Feature 1 de 32</div>
+      <div class="progress__bar"><div id="progressBar"></div></div>
+    </section>
+
+    <section id="featureCard" class="feature-card" aria-live="polite"></section>
+
+    <section id="featureIndex" class="feature-index hidden" aria-label="índice de features"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
