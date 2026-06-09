@@ -1,40 +1,52 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Laura v32.0.0</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="app">
-    <section class="hero" aria-labelledby="page-title">
-      <p class="eyebrow">private release / birthday build</p>
-      <h1 id="page-title">Laura v32.0.0</h1>
-      <p class="subtitle">Colección privada de 32 features</p>
-      <div class="terminal" aria-label="terminal de inicio">
-        <p><span>&gt;</span> initializing birthday protocol</p>
-        <p><span>&gt;</span> loading art-map dependencies</p>
-        <p><span>&gt;</span> status: ready</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laura v32.0.0 — Galleria privata</title>
+    <meta name="description" content="Colección privada de 32 features para Laura v32.0.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">birthday release · private gallery</p>
+        <h1>Laura v32.0.0</h1>
+        <p class="subtitle">Una colección privada de 32 features, obras, pistas y regalos</p>
+        <div class="terminal-line" aria-hidden="true">
+          <span>&gt;</span> initializing birthday protocol<span class="cursor">_</span>
+        </div>
+        <div id="stats" class="stats" aria-label="Resumen de features"></div>
       </div>
-    </section>
+    </header>
 
-    <section class="controls" aria-label="controles">
-      <button id="previousFeature" type="button">← Feature anterior</button>
-      <button id="nextFeature" type="button">Siguiente feature →</button>
-      <button id="toggleAll" type="button">Ver índice</button>
-    </section>
+    <main>
+      <section class="toolbar" aria-label="Filtros de features">
+        <div class="filters">
+          <button class="active" data-filter="todos">todos</button>
+          <button data-filter="regalos">regalos</button>
+          <button data-filter="mensajes">mensajes</button>
+          <button data-filter="bromas">bromas</button>
+          <button data-filter="pistas">pistas</button>
+        </div>
+        <label class="search-label">
+          <span>buscar</span>
+          <input id="search" type="search" placeholder="feature, obra, pista...">
+        </label>
+      </section>
 
-    <section class="progress" aria-live="polite">
-      <div class="progress__text" id="progressText">Feature 1 de 32</div>
-      <div class="progress__bar"><div id="progressBar"></div></div>
-    </section>
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </main>
 
-    <section id="featureCard" class="feature-card" aria-live="polite"></section>
+    <dialog id="featureModal" class="modal">
+      <button id="closeModal" class="close" type="button" aria-label="Cerrar">×</button>
+      <div id="modalBody"></div>
+    </dialog>
 
-    <section id="featureIndex" class="feature-index hidden" aria-label="índice de features"></section>
-  </main>
+    <footer>
+      <p>release built with love · blame policy: consultar feature #26</p>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
