@@ -75,7 +75,7 @@ const featuresLauraV32 = [
     "estado": "desbloqueado",
     "mensaje": "Mi pandereteira favorita. ¿Sabías que te quiero? Es que igual no te lo había dicho",
     "pista": null,
-    "image": "img/06-retrato-musico.jpg"
+    "image": "img/06-retrato-musico.png"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@ const featuresLauraV32 = [
     "estado": "desbloqueado",
     "mensaje": "Somos como dos pequeños arbolitos, uno al lado del otro, resistiendo al viento y siendo más fuertes porque nos podemos apoyar uno en el otro",
     "pista": null,
-    "image": "img/07-madonna-arbolitos.jpg"
+    "image": "img/07-madonna-arbolitos.webp"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@ const featuresLauraV32 = [
     "estado": "desbloqueado",
     "mensaje": "¿Quieres casarte conmigo? Nah, es broma. Esto solo era chistecito =)",
     "pista": null,
-    "image": "img/08-desposorios-virgen.jpg"
+    "image": "img/08-desposorios-virgen.jpeg"
   },
   {
     "id": 9,
@@ -140,7 +140,7 @@ const featuresLauraV32 = [
     "estado": "requiere.busqueda",
     "mensaje": "Pies descalzos",
     "pista": "fondo.de.armario",
-    "image": "img/11-continuidad-espacio.jpg"
+    "image": "img/11-continuidad-espacio.png"
   },
   {
     "id": 12,
@@ -231,7 +231,7 @@ const featuresLauraV32 = [
     "estado": "requiere.entorno.privado",
     "mensaje": "Feature con permisos restringidos. No se ejecuta en repositorios públicos. Requiere entorno privado y complicidad alta",
     "pista": "ver.feature.19",
-    "image": "img/18-la-nuda.jpg"
+    "image": "img/18-la-nuda.jpeg"
   },
   {
     "id": 19,
@@ -296,7 +296,7 @@ const featuresLauraV32 = [
     "estado": "desbloqueado",
     "mensaje": "Estar y vivir contigo es como soñar despierto. Sigues sin saber que te quiero, ¿verdad?",
     "pista": null,
-    "image": "img/23-sogno-orsola.jpg"
+    "image": "img/23-sogno-orsola.png"
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@ const featuresLauraV32 = [
     "estado": "en.progreso",
     "mensaje": "Después de tantos años seguimos yendo a más. Y no encontramos techo",
     "pista": null,
-    "image": "img/24-apoteosis.jpg"
+    "image": "img/24-apoteosis.png"
   },
   {
     "id": 25,
@@ -389,7 +389,7 @@ const featuresLauraV32 = [
     "pista": "2x32",
     "payload": "VWJpY2EgbGFzIG9icmFzIGRlIGFydGUgZGUgbGFzIGZlYXR1cmVzLCBxdWUgZXN0ZSBhw7FvIG5vcyB2YW1vcyBkZSB2aWFqZQ==",
     "mensajeDecodificado": "Ubica las obras de arte de las features, que este año nos vamos de viaje",
-    "image": "img/30-hombre-vitruvio.jpg"
+    "image": "img/30-hombre-vitruvio.webp"
   },
   {
     "id": 31,
@@ -415,7 +415,7 @@ const featuresLauraV32 = [
     "estado": "release.completed",
     "mensaje": "Muchas felicidades, mi amor. 32 añitos ya. Te me haces mayor. No sabes lo orgulloso que estoy de verte crecer cada día, lo mucho que has cambiado estos 8 años. Compartir cada día conviviendo con la persona que quiero es para mí la cosa más maravillosa del mundo y solo te puedo agradecer que me elijas cada día como yo te elijo a ti.\n\nHaces que cada día, aunque sea un día de rutina, sea nuevo y maravilloso y tantas veces me descubro pensando que no lo cambiaría por nada del mundo. Me haces muy feliz.\n\nY eso hace que todos los pasitos que aún nos queden por dar en nuestras vidas no me den tanto miedo, porque sé que estás a mi lado y que yo no me voy a separar del tuyo. Porque eres mi refugio y yo me muero por ser el tuyo. Porque te quiero más que a nada en el mundo y la palabra enamorado siento que se queda corta.\n\nGracias por compartir tu vida conmigo. Gracias por haberte convertido en una mujer a quien puedo admirar y de quien sigo aprendiendo cada día. Gracias por haber creado esa pequeña familia con Cinza y conmigo. Gracias por ser como eres.\n\nSé que estaremos juntos muchos más años, así que prepara las maletas que Milán y Venecia no van a ser nuestros últimos destinos. Pero ten claro que el viaje que de verdad me importa es el que hacemos juntos. Y ese viaje, amor mío, lo haría en cualquier momento a cualquier lugar del mundo con los ojos cerrados.\n\nTe quiero mucho",
     "pista": "que.cumplas.muchos.mas.a.mi.lado",
-    "image": "img/32-paraiso-final.jpg"
+    "image": "img/32-paraiso.jpg"
   }
 ];
 
