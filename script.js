@@ -287,16 +287,16 @@ const featuresLauraV32 = [
   },
   {
     "id": 23,
-    "feature": "paraiso",
-    "obra": "El Paraíso",
+    "feature": "sogno.orsola",
+    "obra": "Sogno di Orsola",
     "formatoObra": "pintura",
     "tipo": "mensaje",
-    "formato": "romantico",
+    "formato": "sueño",
     "localizacion": "nosotros",
     "estado": "desbloqueado",
-    "mensaje": "Estar y vivir contigo es como estar en un paraíso. Sigues sin saber que te quiero, ¿verdad?",
+    "mensaje": "Estar y vivir contigo es como soñar despierto. Sigues sin saber que te quiero, ¿verdad?",
     "pista": null,
-    "image": "img/23-paraiso.jpg"
+    "image": "img/23-sogno-orsola.jpg"
   },
   {
     "id": 24,

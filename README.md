@@ -44,7 +44,7 @@ img/19-la-asuncion.jpg
 img/20-milagro-esclavo.jpg
 img/21-hallazgo-san-marcos.jpg
 img/22-retrato-joven.jpg
-img/23-paraiso.jpg
+img/23-sogno-orsola.jpg
 img/24-apoteosis.jpg
 img/25-puente-rialto.jpg
 img/26-adoracion-magos.jpg
